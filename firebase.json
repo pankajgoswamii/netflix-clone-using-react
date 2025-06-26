@@ -6,5 +6,8 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider&&node server.js"
   }
 }
